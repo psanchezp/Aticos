@@ -67,6 +67,11 @@ body {
 /*
  * Header
  */
+ .logo{
+    width: 180px;
+    height: 105px;
+ }
+
  .masthead{
    background: white;
    -webkit-box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.25);
