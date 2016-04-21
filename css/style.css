@@ -74,6 +74,7 @@ body {
 
  .masthead{
    background: white;
+   color: rgba(78,78,78,.75);
    -webkit-box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.25);
    -moz-box-shadow:    0px 2px 10px 0px rgba(50, 50, 50, 0.25);
    box-shadow:         0px 2px 10px 0px rgba(50, 50, 50, 0.25);
@@ -103,6 +104,14 @@ body {
   color: #4F4F4F; /* IE8 proofing */
   color: rgba(78,78,78,.75);
   border-bottom: 2px solid transparent;
+}
+
+#telefonos{
+  padding: 0px 0px 10px 0px;
+}
+
+#telefono_icon{
+  padding: 10px 0px 10px 0px;
 }
 
 .masthead-nav > li > span{
@@ -149,8 +158,18 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
   background: rgb(170,9,9);
+  height: 12.5%;
 }
 
+#link_social{
+  margin-top: 2em;
+  margin-right: 25px;
+  height: 2em;
+}
+
+#footer_mail{
+  margin-top: 2em;
+}
 
 /*
  * Affix and center
