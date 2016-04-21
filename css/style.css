@@ -72,14 +72,22 @@ body {
  }
 
 .masthead-nav > li {
+  margin-top: 47px;
   display: inline-block;
 }
+
+.nav-right{
+  float: right;
+}
+
+.nav-left{
+  float: left;
+}
+
 .masthead-nav > li + li {
   margin-left: 20px;
 }
 .masthead-nav > li > a {
-  position: relative;
-  margin-top: 50%;
   padding-right: 0;
   padding-left: 0;
   font-size: 16px;
@@ -88,6 +96,11 @@ body {
   color: rgba(78,78,78,.75);
   border-bottom: 2px solid transparent;
 }
+
+.masthead-nav > li > span{
+  margin-top: 50%;
+}
+
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
   background-color: transparent;
@@ -103,9 +116,6 @@ body {
 @media (min-width: 768px) {
   .masthead-brand {
     float: left;
-  }
-  .masthead-nav {
-    float: right;
   }
 }
 
@@ -167,8 +177,7 @@ body {
     width: 100%;
   }
 
-  .masthead-nav,
-  .masthead-brand{
+  .masthead-nav{
     margin-right: 10%;
   }
 }
