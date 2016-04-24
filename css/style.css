@@ -143,6 +143,7 @@ body {
 
 .cover {
   padding: 0 20px;
+  clear: both;
 }
 .cover .btn-lg {
   padding: 10px 20px;
