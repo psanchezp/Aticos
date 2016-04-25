@@ -96,7 +96,10 @@ if (!$errNombre && !$errEmail && !$errMensaje && !$errHumano) {
 
           <div class="inner cover contact">
             <div class="row">
-              <div class="col-md-6 col-md-offset-3">
+              <div class="col-md-2 col-md-offset-1">
+              <img id="contact_img" src="img/banner_somos.jpg"/>
+              </div>
+              <div class="col-md-5 col-md-offset-3">
                 <h1 class="text-center">Contacto</h1>
                 <form class="form-horizontal" role="form" method="post" action="index.php">
                   <div class="form-group">
@@ -132,9 +135,6 @@ if (!$errNombre && !$errEmail && !$errMensaje && !$errHumano) {
                   </div>
                 </form> 
               </div>
-            </div>
-            <div class="col-md-2 col-md-offset-1">
-              <img id="contact_img" src="img/banner_somos.jpg"/>
             </div>
           </div>
 
