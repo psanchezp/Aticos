@@ -138,7 +138,7 @@ if (!$errNombre && !$errEmail && !$errMensaje && !$errHumano) {
             </div>
           </div>
 
-          <div class="container-fluid mastfoot">
+          <div class="container-fluid mastfoot mastfoot_index">
               <div class="row">
                 <div class="col-md-2">
                   <a href="https://www.facebook.com"><img id="link_social" src="img/facebook.png"/></a>
