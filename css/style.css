@@ -161,6 +161,15 @@ body {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   }
 
+  .index_subtitle{
+    position: absolute;
+    top: 400px;
+    left: 830px;
+    color: white;
+    font-size: 18pt;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
 .cover {
   padding: 0 20px;
   clear: both;
@@ -179,6 +188,16 @@ body {
 #contact_img{
   height: 150px;
   border-radius: 15px;
+  margin-top: 50px;
+}
+
+#nosotros_img{
+  height: 250px;
+  border-radius: 15px;
+  margin-top: 0px;
+}
+
+#nosotros_text{
   margin-top: 50px;
 }
 
@@ -217,6 +236,10 @@ body {
   .mastfoot {
     position: fixed;
     bottom: 0;
+  }
+
+  .mastfoot_index{
+    position: relative;
   }
   /* Start the vertical centering */
   .site-wrapper-inner {
